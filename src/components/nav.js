@@ -4,7 +4,9 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Menu from './menu';
+import logo from '../images/kiyanoosh-logo.svg'
 import '../css/tools.css';
+import '../css/nav.css';
 
 const styles = {
   flex: {
@@ -18,7 +20,7 @@ function Navigation(props) {
       <AppBar position="static">
       <Toolbar className="container">
           <Typography variant="title" color="inherit" className={classes.flex}>
-            Logo
+            <img className="logo" alt="kiyanoosh logo" src={logo} />
           </Typography>
           <Menu/>
         </Toolbar>

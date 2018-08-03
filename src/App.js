@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Navigation from './components/nav'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import blue from '@material-ui/core/colors/blue';
+import Navigation from './components/nav';
+import Avater from './components/avatar';
 
 class App extends Component {
   render() {
     const theme = createMuiTheme(
-
       {
         palette: {
           primary: blue,
@@ -14,11 +14,12 @@ class App extends Component {
         },
       }
     );
-    
+
     return (
       <div>
        <MuiThemeProvider theme={theme}>
        <Navigation/>
+       <Avater/>
       </MuiThemeProvider>     
       </div>
     );
