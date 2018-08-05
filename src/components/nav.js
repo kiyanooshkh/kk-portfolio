@@ -17,7 +17,7 @@ const styles = {
 function Navigation(props) {
   const { classes } = props;
   return (
-      <AppBar position="static">
+      <AppBar position="fixed">
       <Toolbar className="container">
           <Typography variant="title" color="inherit" className={classes.flex}>
             <img className="logo" alt="kiyanoosh logo" src={logo} />

@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import blue from '@material-ui/core/colors/blue';
 import Navigation from './components/nav';
-import Avater from './components/avatar';
+import Carousel from './components/carousel';
+import * as color from './common/colors';
 
 class App extends Component {
   render() {
     const theme = createMuiTheme(
       {
         palette: {
-          primary: blue,
+          primary: {
+            main:color.primaryblue
+          },
           secondary: blue,
         },
       }
@@ -19,7 +22,7 @@ class App extends Component {
       <div>
        <MuiThemeProvider theme={theme}>
        <Navigation/>
-       <Avater/>
+       <Carousel/>
       </MuiThemeProvider>     
       </div>
     );

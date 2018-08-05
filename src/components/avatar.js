@@ -4,25 +4,20 @@ import Avatar from '@material-ui/core/Avatar';
 import profile from '../images/kiyanoosh-profile.jpg';
 
 const styles = {
-  row: {
-    display: 'flex',
-    justifyContent: 'center',
-    marginTop: 70,
-  },
   avatar: {
-    margin: 10,
+    margin: 60,
     width: 200,
     height: 200,
   },
 };
 
-function ImageAvatars(props) {
+function Avatars(props) {
   const { classes } = props;
   return (
-    <div className={classes.row}>
+    <div>
       <Avatar alt="profile image" src={profile} className={classes.avatar} />
     </div>
   );
 }
 
-export default withStyles(styles)(ImageAvatars);
+export default withStyles(styles)(Avatars);
