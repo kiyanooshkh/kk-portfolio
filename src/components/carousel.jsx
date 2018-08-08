@@ -7,6 +7,7 @@ const styles = {
   row: {
     display: 'flex',
     justifyContent: 'center',
+    flexGrow: 1,
     background: color.primaryblue,
     marginTop:60
   }
@@ -16,7 +17,7 @@ function Carousel(props) {
   const { classes } = props;
   return (
     <div className={classes.row}>
-      <Avatar/>
+        <Avatar/>
     </div>
   );
 }

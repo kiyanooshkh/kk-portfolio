@@ -13,9 +13,11 @@ const styles = {
 
 function Avatars(props) {
   const { classes } = props;
+
   return (
     <div>
       <Avatar alt="profile image" src={profile} className={classes.avatar} />
+      <div>{props.name}</div>
     </div>
   );
 }
