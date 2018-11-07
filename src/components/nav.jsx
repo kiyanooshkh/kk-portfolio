@@ -5,8 +5,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Menu from './menu';
 import logo from '../images/kiyanoosh-logo.svg'
-import '../css/tools.css';
-import '../css/nav.css';
+import '../scss/tools.scss';
+import '../scss/nav.scss';
 
 const styles = {
   flex: {

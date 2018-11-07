@@ -6,7 +6,6 @@ cache:
   - node_modules
 script:
   - npm install
-  - npm run build-css
   - npm run build
 deploy:
   provider: pages
