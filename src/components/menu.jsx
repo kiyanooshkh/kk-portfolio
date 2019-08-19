@@ -12,9 +12,7 @@ function Menu (props) {
   const { classes } = props;
       return (
         <div>
-          <Button className={classes.fontColor}>Portfolio</Button>
           <Button className={classes.fontColor}>About</Button>
-          <Button className={classes.fontColor}>Phototgraphy</Button>
           <Button className={classes.fontColor}>Contact</Button>
         </div>
       );

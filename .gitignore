@@ -22,5 +22,4 @@ yarn-error.log*
 
 src/**/*.css
 
-package-lock\.json
 package-lock.json
