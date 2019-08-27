@@ -2,7 +2,7 @@
   "name": "kk-portfolio",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://kiyanooshkh.github.io/kk-portfolio/",
+  "homepage": "https://kiyanooshkh.github.io/react-portfolio-example/",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "node-sass": "^4.12.0",
